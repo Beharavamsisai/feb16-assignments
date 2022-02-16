@@ -1,0 +1,9 @@
+if year%100!=0 and year%4==0:
+        return True
+   if year%400==0:
+        return True
+Else:
+    return False
+
+year = int(input())
+print(is_leap(year))
